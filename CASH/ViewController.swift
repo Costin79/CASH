@@ -8,7 +8,7 @@ import UIKit
 
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     var textdata = ["Hotel Suite","Dining Room,", "Gym", "Spa Services","Scuba Diving"]
-    
+    // Added
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return textdata.count
